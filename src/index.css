@@ -506,7 +506,203 @@ home page part 3
 /* =====================================
 Responsive Section
 ======================================= */
-@media screen and (max-width : 759rem) and (min-width: 422rem)   {
+@media only screen and (max-width: 1400px) and (min-width: 998px){
+  #header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+    width: 56.25rem;
+    height: 25rem;
+  }
+  body {
+    background-color: #fff;
+    background-image: url("C:\Users\gupta\OneDrive\Desktop\ccc website\css\src\image\2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 100rem 21.875rem;
+    background-position-y: 552px;
+    background-attachment: scroll;
+  }
+  #header h1 {
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+    color: black;
+  }
+  .contain .text {
+    position: relative;
+    color: #5c2e7e;
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .About-head h3 {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 86px;
+    margin-bottom: 40px;
+  }
+  .teamimg {
+    width: 34.375rem;
+    height: 27.5rem;
+  }
+  .team-img {
+    display: flex;
+    justify-content: flex-end;
+    text-align: start;
+    justify-items: space-around;
+  }
+  .team-img p {
+    z-index: 2;
+    margin-top: 2rem;
+    padding-right: 40px;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .bol {
+    position: absolute;
+    top: 19rem;
+    opacity: 0.5;
+    z-index: -1;
+    background-attachment: scroll;
+  }
+  .whatwedo {
+    background-image: url("C:\Users\gupta\OneDrive\Desktop\ccc website\css\src\image\4.png");
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 8.2rem;
+    background-attachment: scroll;
+  }
+} 
+@media screen and (min-width: 482px) and (max-width:821px){
+  #header .animated{
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    left: 1.5rem;
+  }
+  body{
+    background-size: 100% 8%;
+  }
+  #header h1{
+     margin: 0; padding: 0;
+     position: absolute;
+    top: 55rem;
+  }
+  .contain h2{
+    margin: 0; padding: 0;
+    position: absolute;
+    top : 60rem;
+  }
+  .About-head h3 {
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+  .teamimg{
+  width: 40rem;
+  height: 30rem;
+  }
+  .team-img {
+   position: relative;
+   margin-bottom: 20rem;
+   right: 0rem;
+  }
+  .team-img p {
+    margin-top: 12rem;
+    text-align: center;
+    font-size: 23px;
+    position: absolute;
+    top: 20rem;
+  }
+  .bol {
+    position: absolute;
+    top: 37rem;
+    left: 25rem;
+    opacity: 0.4;
+  }
+  .whatwedo {
+    background-image: none;
+    margin-top: 25rem;
+    margin-bottom: 0; padding-bottom: 0;
+  }
+  .whoarewe{
+    margin-top: 10rem;
+  }
+  .team1-area{
+    width: 50%;
+    right: 8rem;
+  }
+  .single1-team{
+    margin-left: 2rem;
+  }
+
+}
+ 
+
+@media only screen and (max-width: 480px) and (min-width: 0px){
+  #header .animated{
+    width: 80%;
+    height: 30%;
+    position: absolute;
+    left: 1.5rem;
+  }
+  body{
+    background-size: 109% 4%;
+  }
+  #header h1{
+    font-weight : 200;
+    margin-top: 14rem;
+    text-align: left;
+  }
+  .contain .text{
+    font-size: 30px;
+  }
+  .About-head h3 {
+    margin-top: 20px;
+    padding-top: 26px;
+    margin-bottom: 20px;
+  }
+  .teamimg{
+  width: 22rem;
+  height: 20rem;
+  }
+  .team-img {
+   position: relative;
+   margin-bottom: 20rem;
+   left: 2rem;
+  }
+  .team-img p {
+    margin-top: 0rem;
+    text-align: center;
+    font-size: 15px;
+    position: absolute;
+    top: 20rem;
+    margin-bottom: 10rem;
+  }
+  .bol {
+    position: absolute;
+    top: 30rem;
+    left: 0rem;
+    opacity: 0.4;
+  }
+  .whatwedo {
+    background-image: none;
+  }
+  .team1-area{
+    width: 50%;
+    right: 8rem;
+  }
+  .single1-team{
+    margin-left: 2rem;
+  }
+   /* .team1-img img {
+    height: 110%;
+}
+.team1-content {
+  height: 80px;
+  width: 100%;
+}  */
+}
+/* @media screen and (max-width : 759rem) and (min-width: 422rem)   {
   
 }
 @media screen and (max-width:420px)  {
@@ -565,5 +761,5 @@ Responsive Section
   .single1-team{
     margin-left: 2rem;
   }
-}
+} */
 

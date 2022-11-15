@@ -68,7 +68,80 @@
     position: absolute;
     right: 4rem;
   }
+  /* ===================================  responsive*/
+ 
   @media (min-width: 900px) {
+    .panel {
+      flex-direction: row;
+    }
+    .info,
+    .ss {
+      padding: 25px 50px;
+    }
+  }
+  @media screen and (min-width: 482px) and (max-width:821px){
+    iframe{
+      width : 44%;
+      height: 48%;
+      position: absolute;
+      right: 0.6rem;
+      bottom : 14.0rem;
+     }
+     .ss {
+      margin: 2px 0 0 0px;
+      text-align: center;
+    }
+    .info-img {
+      max-width: 25%;
+    }
+    .cp {
+      margin: 2px 20px;
+      padding: 15px 5px;
+    }
+    .Footer1{
+      margin-top: 0rem;
+     }
+  }
+  @media screen and (min-width: 0px) and (max-width:480px){
+    iframe
+    {
+      width: 70%;
+      height: 30%;
+      position: absolute;
+      top: 18rem;
+      left: 1rem;
+    }
+ .Footer1{
+  margin-top: 50rem;
+  width: 30rem;
+  height: 40rem;
+ }
+ .info-img{
+  width: 30%;
+  position: relative;
+  left: 5rem;
+ }
+ .ss{
+  
+  position: absolute;
+  top: 32rem;
+  left: 2.5rem;
+  margin: 0;
+  text-align: center;
+  font-size: 50%;
+ }
+ .text p{
+  position: absolute;
+  left: 2.8rem;
+  text-align: center;
+ }
+ .cc{
+  position: absolute;
+  right: 10rem;
+  top: 39rem;
+ }
+    }  
+  /* @media (min-width: 900px) {
     .panel {
       flex-direction: row;
     }
@@ -117,4 +190,4 @@
   top: 39rem;
  }
  }
- 
+  */
