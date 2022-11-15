@@ -65,11 +65,11 @@ const Contac = () => {
                     <h1>
                       {" "}
                       <span className="text first-text">
-                        Events And Mentors
+                      If You Ever Wish For a Cloud
                       </span>{" "}
                     </h1>
                     <h2 className="my-3">
-                      <span className="text sec-text">Depeloy.</span>
+                      <span className="text sec-text">Here We Are.</span>
                     </h2>
                   </div>
                 </div>
