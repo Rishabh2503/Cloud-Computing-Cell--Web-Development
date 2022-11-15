@@ -70,11 +70,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Manya} alt=""  width={255} height={263} />
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Manya Chaudhary</h3>
                                 <p>Machine Learning & UI/Ux</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -85,11 +85,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Kartikay} alt="" width={255} height={263}/>
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Kartikay Singhal </h3>
                                 <p>Machine Learning</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -99,11 +99,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Aagiya} alt="" width={255} height={263}/>
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Aagiya Singh</h3>
                                 <p>Web Developer</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -113,11 +113,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Samiksha} alt="" width={255} height={263}/>
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Aagiya Singh</h3>
                                 <p>Web Developer</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -140,11 +140,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Sachin} alt="" width={255} height={263}/>
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Sachin Kumar</h3>
                                 <p>Web Developer</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -155,11 +155,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Mrityunjay} alt="" width={255} height={263}/>
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Mrityunjay Pandey</h3>
                                 <p>Web Developer & CP</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -170,11 +170,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Kamakshi} alt="" width={255} height={263}/>
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Kamakshi Vashista</h3>
                                 <p>Web Developer</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -185,12 +185,12 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Harshit} alt="" width={255} height={263}/>
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Harshit Saxena
                                 </h3>
                                 <p>Web Developer</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -204,11 +204,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Shailaja} alt="" width={255} height={263}/>
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Shailaja Pal</h3>
                                 <p>Web Developer</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -218,11 +218,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Shashwat} alt="" width={255} height={263} />
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Shashwat Pandey</h3>
                                 <p>Web Developer</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -234,11 +234,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Anishkha} alt="" width={255} height={263} />
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Anishkha Chaudhary</h3>
                                 <p>App Developer & Ui/Ux</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -249,11 +249,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Anjani} alt="" width={255} height={263}/>
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Anjani Singhal</h3>
                                 <p>App Developer & Ui/Ux</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -266,11 +266,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Nidhi} alt="" width={255} height={263} />
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Nidhi Solanki</h3>
                                 <p>Machine Learning</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -281,11 +281,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Siddharth} alt="" width={255} height={263} />
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Siddharth Srivastava</h3>
                                 <p>Machine Learning</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
@@ -296,11 +296,11 @@ const [tabIndex, setTabIndex] = useState(1);{
                                 <img src={Nishtha} alt="" width={255} height={263} />
                             </div>
                             <div className="team1-content">
-                            <div class="team1-info">
+                            <div className="team1-info">
                                 <h3>Nishtha Pandey</h3>
                                 <p>Machine Learning</p>
                             </div>
-                            <p className="team1-text"><i class="fa-brands fa-facebook fa-2x "></i><i class="fa-brands fa-instagram fa-2x "></i><i class="fa-brands fa-linkedin fa-2x "></i><i class="fa-brands fa-github fa-2x "></i></p>
+                            <p className="team1-text"><i className="fa-brands fa-facebook fa-2x "></i><i className="fa-brands fa-instagram fa-2x "></i><i className="fa-brands fa-linkedin fa-2x "></i><i className="fa-brands fa-github fa-2x "></i></p>
                             </div>
                         </div>
                     </div>
