@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333;
+    font-family: 'Elgoc Alt', 'Times New Roman', sans-serif;
+}
+.profile-photo-front {
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-filter: brightness(75%);
+    filter: brightness(75%);
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+img {
+    display: inline-block;
+    max-width: 100%;
+}
+.profile-photo-back{
+          opacity: 0.3;
+    position: absolute;
+    left: 36rem;
+    top: 8rem;
+    border-radius: 4%;
+    z-index: 0;
+}
+.profile-photo-front{
+    opacity: 0;
+}
+/* .profile-photo-front:hover{
+    opacity: 1;
+    position: absolute;
+    left:36.5rem;
+    top: 5.5rem;
+    width: 393px;
+    height: 592px;
+    z-index: 2;
+}  */
+.text {
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    /* background: #333; */
+    color: red;
+    mix-blend-mode: color-dodge;
+    z-index: 1;
+}
+.second{
+    top: 10rem;
+}
+section{
+    margin: 4px;
+}
+.front-end{
+     display: flexbox; 
+    position: relative;
+    top: 50rem;
+    left: 9rem;
+    width: 70rem;
+    height: 9rem;
+    background-attachment: fixed;
+    
+}
+.front-end p{ 
+    margin-top: 2rem;
+  padding: 2rem 1rem 0 4rem;
+  font-size: 30px;
+  text-align: center;
+  color: aliceblue;
+  font-weight: 200;
+}
+.logo1{
+    margin-top: 2.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 6rem;
+}
+.Launch{
+  color: #fff;
+}
+.HEad1{
+  margin: 50rem 0 0 0 ;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 50px;
+}
+.Mysite,
+.tindog,
+.Simon{
+  display: inline-flex;
+  justify-items: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 4rem 20rem;
+
+}
+
+.img-all{
+  margin: 0 0 0 15rem;
+  padding: 0;
+  border-radius: 5%;
+}
+.img-tin{
+  margin: 0 30rem 0 0rem;
+  padding: 0;
+  border-radius: 5%;
+}
+
+.mysitep
+ h1{
+  font-size: 45px;
+}
+.simonp
+ h1{
+  font-size: 45px;
+}
+.mysitep p{
+  font-size: 25px;
+}
+.simonp p{
+  font-size: 20px;
+}
+.tindogp h1{
+  text-align: right;
+  font-size: 45px;
+}
+.tindog p{
+  text-align: right;
+  font-size: 20px;
+}
+.img-simon{
+  border-radius: 5%;
+  margin: 0 0rem 0 5rem;
+}
+
+/* ============== 
+nav
+============== */
+.topnav {
+    position: fixed;
+    display: block;
+    top: 45%;
+    right: 0;
+  }
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: black;
+    overflow-x: hidden;
+    padding: 10% 0 0 0;
+    transition: 0.2s ease-in;
+  }
+  .sidenav div{
+    display: block;
+  }
+  .sidenav a {
+    padding: 10px 15px 8px 20px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    display: block;
+    transition: 0.1s;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: white;
+  }
+  #icon {
+    right: 0;
+    cursor: pointer;
+  }
+  .container-nav {
+    width: 30px;
+    height: 100px;
+    background-color: #2b2a29;
+  }
+  .container-nav h3 {
+    transform: rotate(-90deg);
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    left: 4px;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  .sidenav .tag {
+    padding-left: 40px;
+    background-color: black;
+    color: #eeaeca;
+    transition: 0.1s;
+  }
+  /*========= 
+  navend
+  ===== */
+  .down li {
+    list-style-type: none;
+    display: inline-flex;
+    font-size: 20px;
+    letter-spacing: 2;
+    color: #fff;
+    font-weight: 500;
+  }
+  .down ul{
+    letter-spacing: 4px;
+  }
+  .down{
+    position: absolute;
+    top : 150rem;
+    left: 38rem;
+  }
+  .down a{
+    text-decoration: none;
+  }

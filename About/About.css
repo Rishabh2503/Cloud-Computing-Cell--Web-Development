@@ -1,0 +1,172 @@
+body{
+    background: radial-gradient(circle, rgba(233,143,181,1) 0%, rgba(174,174,210,1) 42%, rgba(0,212,255,1) 100%);
+}
+/* ============== 
+nav
+============== */
+.topnav {
+  position: fixed;
+  display: block;
+  top: 45%;
+  right: 0;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background: black;
+  overflow-x: hidden;
+  padding: 10% 0 0 0;
+  transition: 0.2s ease-in;
+}
+.sidenav div{
+  display: block;
+}
+.sidenav a {
+  padding: 10px 15px 8px 20px;
+  text-decoration: none;
+  font-size: 1.4rem;
+  display: block;
+  transition: 0.1s;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 15px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+#icon {
+  right: 0;
+  cursor: pointer;
+}
+.container-nav {
+  width: 30px;
+  height: 100px;
+  background-color: #2b2a29;
+}
+.container-nav h3 {
+  transform: rotate(-90deg);
+  color: #fff;
+  position: absolute;
+  top: 35px;
+  right: 0px;
+  left: 4px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.sidenav .tag {
+  padding-left: 40px;
+  background-color: black;
+  color: #eeaeca;
+  transition: 0.1s;
+}
+/*========= 
+navend
+===== */
+.about-main {
+    text-align: center;
+    width: 60%;
+    background: whitesmoke;
+    box-shadow: #2277c27a 6px 2px 16px 0px, #eeaeca -6px -2px 16px 0px;
+    padding-bottom: 20px;
+    display: flex;
+    position: absolute;
+    left: 22rem;
+    bottom: 0rem;
+  }
+  .about-img {
+    margin: 25px;
+    width: 14rem;
+    height: 12 rem;
+    box-shadow: rgb(0 0 0 / 45%) 0px 35px 20px -20px;
+    animation: fadeInAnimation ease 2s;
+    animation-fill-mode: forwards;
+  }
+  
+  .about-me {
+    margin: 30px;
+    color: black;
+    font-size: 1.5rem;
+    white-space: normal;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: justify;
+    animation: fadeInAnimation ease 1s;
+    animation-fill-mode: forwards;
+
+  }
+  .heading1 {
+    text-align: center;
+    padding: 3%;
+    font-size: 2.5rem;
+    padding: 20px 0 20px 0;
+    color: black;
+    background: transparent;
+    zoom: 200%;
+  }
+  .down li {
+    list-style-type: none;
+    display: inline;
+    font-size: 20px;
+    letter-spacing: 2;
+  }
+  .down ul{
+    letter-spacing: 4px;
+  }
+  .down{
+    position: absolute;
+    top : 52rem;
+    left: 35rem;
+  }
+  .down a{
+    text-decoration: none;
+  }
+  @media screen and (min-width: 990px) {
+    
+  }
+  @media screen and (max-width:351px){
+    .about-main {
+      text-align: justify;
+      width: 60rem;
+      height: 75rem;
+      padding-bottom: 00px;
+      left: 0rem;
+      bottom: 20rem;
+    }
+    .about-img {
+      margin: 25px;
+      width: 35rem;
+      height: 40rem;
+      position: absolute;
+      top : 33rem;
+      left: 10rem;
+      
+    }
+    .about-me {
+      margin: 60px;
+      color: black;
+      font-size: 2rem;
+      white-space: normal;
+      font-weight: 400;
+    }
+    .down{
+      position: absolute;
+      top : 102rem;
+      left: 17rem;
+    }
+    
+  }

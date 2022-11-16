@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <section>
+        <div id="mySidenav" class="sidenav" style="width: 250px;">
+          <a class="closebtn" onclick="closeNav()">×</a>
+          <a class="tag" href="/index.html">Home</a>
+          <a class="tag" href="/About/About.html">About</a>
+          <a class="tag" href="/Exprince/Exprince.html">Experience</a>
+          <a class="tag" href="/contact/Contact.html">Get In Touch</a>
+      </div>
+      <div class="topnav">
+        <span id="icon" onclick="openNav()"><div class="container-nav"><h3>MENU</h3></div></span>
+    </div>
+        </section>
+    <div class="header2"><h1>Contact Us</h1></div><br/>
+    
+ <div class="contact-panel1">
+    <form onSubmit="sendEmail(); reset(); return false" id="form">
+        <div class="contact-form-control">
+            <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+        <div class="contact-form-control">
+            <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+        <div class="contact-form-control">
+            <input type="number" id="phone" placeholder="Your Contact No." />
+        </div>
+
+        <div class="contact-form-control">
+            <textarea id="message" name="comment" placeholder="Your feedback!" rows="7" cols="50"></textarea>
+        </div>
+        <button class="contact-bt" type="submit" value="submit">
+            SEND
+        </button>
+    </form>
+</div>
+<div class="contact-img"><img src="5124556.png" alt="" class="image2"></div>
+
+<div class="down">
+    <ul>
+        <a href="/index.html"><li>Home |</li></a>
+      <a href="/About/About.html"><li>About |</li> </a>
+          <a href="/Exprince/Exprince.html"><li>Experience </li></a>
+          
+    </ul>
+  </div>
+</body>
+<script src="/index.js"></script>
+</html>
