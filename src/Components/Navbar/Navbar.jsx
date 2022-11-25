@@ -4,40 +4,81 @@ import web from '../Navbar/8.png'
 import "./Nav.css";
 const Navbar = () =>
 {
+  const [click, setClick] = React.useState(false);
+
+  const handleClick = () => setClick(!click);
+  const Close = () => setClick(false);
     return (
       <>
-         {/* <div className="container-fluid nav_bg">
-             <div className="row">
-                <div className="col-10 mx-auto">  */}
-        <nav className="navbar navbar-expand-lg" id="navbar201" >
-     <div className="container-fluid">
-     <NavLink className="navbar-brand" to="/"><img src={web} alt="" />Cloud Computing Cell</NavLink>
-    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon"></span>
-    </button>
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <div className="navbar-nav">
-        <li className="nav-item">
-          <NavLink activeClassName="menu_active" exact className="nav-link active" to="/">Home</NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink activeClassName="menu_active" className="nav-link" to="/activities">Activities</NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink activeClassName="menu_active" className="nav-link" to="/team">Team</NavLink>
-        </li>
-        <li className="nav-item">
-          <NavLink activeClassName="menu_active" className="nav-link" to="/Call">Contact</NavLink>
-        </li>
+     <div className={click ? "main-container3" : ""}  onClick={()=>Close()} />
+      <nav className="navbar" onClick={e => e.stopPropagation()}>
+        <div className="nav-container3">
+          <NavLink exact to="/" className="nav-logo">
+          <img src={web} alt="" /> Cloud Computing Cell
+          </NavLink>
+          <ul className={click ? "nav-menu active5" : "nav-menu"}>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/"
+                activeClassName="active5"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/activities"
+                activeClassName="active5"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Activities
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/team"
+                activeClassName="active5"
+                className="nav-links"
+                onClick={click ? handleClick : null}
+              >
+                Team
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/Call"
+                activeClassName="active5"
+                className="nav-links"
+               onClick={click ? handleClick : null}
+              >
+                Contact Us
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/Register"
+                activeClassName="active5"
+                className="nav-links"
+               onClick={click ? handleClick : null}
+              >
+                Register
+              </NavLink>
+            </li>
+          </ul>
+          <div className="nav-icon" onClick={handleClick}>
+            <i className={click ? "fa fa-times" : "fa fa-bars"}></i>
           </div>
         </div>
-      <div>
-    </div>
-  </div>
-  </nav>
- {/* </div>
-    </div> 
-    </div> */}
+      </nav>
+    
     </>
     )
 }

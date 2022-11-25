@@ -3,12 +3,12 @@ import "./carusel.css";
 // import image1 from './images/1.jpg'
 // import image2 from './images/2.jpg'
 // import image3 from './images/3.jpg'
-import image4 from "../Activity/actvity images/4.jpeg";
-import image5 from "../Activity/actvity images/5.jpeg";
-import image6 from "../Activity/actvity images/6.jpeg";
-import image7 from "../Activity/actvity images/7.jpeg";
-import image8 from "../Activity/actvity images/8.jpeg";
-import image9 from "../Activity/actvity images/9.jpeg";
+import image4 from "./image/4.jpeg";
+import image5 from "./image/5.jpeg";
+import image6 from "./image/6.jpeg";
+import image7 from "./image/7.jpeg";
+import image8 from "./image/8.jpeg";
+import image9 from "./image/9.jpeg";
 import Slider from "./Slider";
 
 import { Link } from "react-router-dom";

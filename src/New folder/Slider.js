@@ -3,11 +3,11 @@ import SliderContent from "./Slidercontent";
 import Dots from "./Dots";
 import Arrows from "./Arrow";
 import sliderImage from "./sliderImage";
-import St from "./Slider.css";
-import image10 from '../Activity/actvity images/10.png'
-// import image1 from '../Activity/actvity images/s1.jpg'
-// import image2 from '../Activity/actvity images/s2.jpg'
-// import image3 from '../Activity/actvity images/s3.jpg'
+import "./Slider.css";
+import image10 from './image/10.png'
+import image1 from './image/s1.jpg'
+import image2 from './image/s2.jpg'
+import image3 from './image/s3.jpg'
 
 const len = sliderImage.length - 1;
 function Slider(props) {
@@ -20,8 +20,8 @@ function Slider(props) {
     return () => clearInterval(interval);
   }, [activeIndex]);
 var slides = document.getElementsByClassName("slide");
-// var btn9 = document.getElementsByClassName("navigation");
-var dots=document.getElementsByClassName("btn9");
+// var btn = document.getElementsByClassName("navigation");
+var dots=document.getElementsByClassName("btn");
 // var total_slide = slide.length;
 // var i,index=0;
 // setInterval(function(){
@@ -51,9 +51,9 @@ var dots=document.getElementsByClassName("btn9");
 // }
   return (
 
-    <div className="slider-container9">
-      <div className="container9">
-            <div className="box9">
+    <div className="slider-container3">
+      <div className="container3">
+            <div className="box">
                 <img src={image10} alt=""/>
             </div>
       </div>
@@ -83,7 +83,7 @@ export default Slider;
 
 
 // var slides = document.querySelectorAll('.slide');
-//     var btn9s = document.querySelectorAll('.btn9');
+//     var btns = document.querySelectorAll('.btn');
 //     let currentSlide = 1;
 
 //     // Javascript for image slider manual navigation
@@ -91,17 +91,17 @@ export default Slider;
 //       slides.forEach((slide) => {
 //         slide.classList.remove('active');
 
-//         btn9s.forEach((btn9) => {
-//           btn9.classList.remove('active');
+//         btns.forEach((btn) => {
+//           btn.classList.remove('active');
 //         });
 //       });
 
 //       slides[manual].classList.add('active');
-//       btn9s[manual].classList.add('active');
+//       btns[manual].classList.add('active');
 //     }
 
-//     btn9s.forEach((btn9, i) => {
-//       btn9.addEventListener("click", () => {
+//     btns.forEach((btn, i) => {
+//       btn.addEventListener("click", () => {
 //         manualNav(i);
 //         currentSlide = i;
 //       });

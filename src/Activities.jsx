@@ -4,28 +4,11 @@ import  Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 // import Slider from "./Components/Slider/Slider";
 // import Carusel from "./Components/Activity/carusel";
-import New from "./Components/Activity/New";
-import New3 from "./Components/Activity/New3";
-import New6 from "./Components/Activity/New6";
+// import New from "./Components/Activity/New";
+// import New3 from "./Components/Activity/New3";
+// import New6 from "./Components/Activity/New6";
 // import {BrowserRouter,Switch,Route} from "react-router-dom";
-const text = document.querySelector(".sec-text");
 
-// const textLoad = () => {
-// if(text){
-//     setTimeout(() => {
-//         text.textContent = "Think.";
-//     }, 0);
-//     setTimeout(() => {
-//         text.textContent = "Develop.";
-//     }, 4000);
-//     setTimeout(() => {
-//         text.textContent = "Deploy.";
-//     }, 8000); 
-// }
-// }
-// const ram = 1000;
-// textLoad();
-// setInterval(textLoad, ram);
 
 const Activities =() => {
     return (
@@ -50,22 +33,9 @@ const Activities =() => {
             </div>
         </div>
         </section>
-         {/* <section>
-         <BrowserRouter>
-            <Switch>
-        <Route exact path="css\src\Components\Activity\Slider.js" component={Carusel}/>
-        <Route exact path="/new" component={New}/>
-        <Route exact path="/new3" component={New3}/>
-        <Route exact path="/new6" component={New6}/>
-        </Switch>
-        </BrowserRouter>
-        </section>  */}
-        {/* <section>
-        <New />
-        <New3 />
-        <New6 />
-        </section> */}
-        {/* <section> <Carusel /></section> */}
+        {/* -------------------------- */}
+        {/* <Carusel /> */}
+        {/* -------------------------------- */}
         <section>
             <Footer />
         </section>

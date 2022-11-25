@@ -1,6 +1,6 @@
-import First from "../Activity/actvity images/s1.jpg";
-import Second from "../Activity/actvity images/s2.jpg";
-import Third from "../Activity/actvity images/s3.jpg";
+import First from "./image/s1.jpg";
+import Second from "./image/s2.jpg";
+import Third from "./image/s3.jpg";
 
 export default [
   {

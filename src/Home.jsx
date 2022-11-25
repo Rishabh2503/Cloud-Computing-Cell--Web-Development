@@ -29,10 +29,48 @@ const Home =() => {
                 <div className="col-10 mx-auto">
                     <div className="row">
                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                    <div className="contain">
-                    <h1> <span className="text first-text">Accelerating Cloud Transformation</span> </h1>
-                    <h2 className="my-3"><span className="text sec-text">Think.</span></h2>
-                    </div>
+            
+                    <section id="hero1">
+          <div className="txtcon aos-init aos-animate" data-aos="zoom-out" data-aos-delay="1000">
+            <div className="blocks block0">
+              <h1 className="blast-text3">
+                <span className="text3">Accelerating</span>
+            
+                &nbsp;
+                <span className="text3">Cloud</span>
+               
+
+                 
+              </h1>
+            </div>
+            <div className="blocks block1">
+              <h2 className="blast-text3">
+                <span className="text3">T</span>
+                <span className="text3">H</span>
+                <span className="text3">I</span>
+                <span className="text3">N</span>
+                <span className="text3">K</span>
+                &nbsp;
+                <span className="text3">D</span>
+                <span className="text3">E</span>
+                <span className="text3">V</span>
+                <span className="text3">E</span>
+                <span className="text3">L</span>
+                <span className="text3">O</span>
+                <span className="text3">P</span>
+                <span className="text3">E</span>
+                &nbsp;
+                <span className="text3">D</span>
+                <span className="text3">E</span>
+                <span className="text3">P</span>
+                <span className="text3">L</span>
+                <span className="text3">O</span>
+                <span className="text3">Y</span>
+              </h2>
+            </div>
+            <br />
+          </div>
+        </section>
                 </div>
                 <div className="col-lg-6 order-lg-2 header-img"><img src={web} className="img-fluid animated" alt="home img" />
                 </div>
@@ -40,14 +78,14 @@ const Home =() => {
                 </div>
             </div>
         </div>
-        </section>
+        </section> 
         
         
         {/* ================================================== Who We are ================================*/}
         <section>
         <div className="container2 reveal">
         <div className="container-fluid nav_bg" id="dol">
-            <div className="bol"><img src={bal} alt=""/></div> 
+            <div className="bol"><img src={bal} alt="bol"/></div> 
             <div className="row ">
                 <div className="col-10 mx-auto">
        <div className="About-head">
@@ -55,7 +93,7 @@ const Home =() => {
        <div className="team-img">
        <p>Cloud Computing Cell has been a part of Ajay Kumar Garg Engineering College since February 2016.<br/> The members are exposed to the latest Cloud Technologies that enable them to be market ready thereby increasing their opportunities in placements and research.<br/> It provides a platform to the students to compute, manage and deploy the cloud and related services.<br/> The Cell is coordinated by Dr. J. K. Seth, Ms. Anupama Sharma and Dr. Parneet Kaur, faculty members, IT department.</p>
         
-        <img  className ="teamimg" src={Team} alt="Team photo" /></div>
+        <img  className ="teamimg" src={Team} alt="Team img" /></div>
             </div>
             </div>
             </div>
@@ -72,7 +110,7 @@ const Home =() => {
                 <div className="d-container">
                     <div className="d-front">
                         <div className="d-inner">
-                            <span><img className="d-img" src={Web} /></span>
+                            <span><img className="d-img" src={Web} alt="dimg"/></span>
                             <p>Web Development</p>
                         </div>
                     </div>
@@ -87,7 +125,7 @@ const Home =() => {
                 <div className="d-container">
                     <div className="d-front">
                         <div className="d-inner">
-                            <span><img className="d-img" src={App} /></span>
+                            <span><img className="d-img" src={App} alt="dimg"/></span>
                             <p>App Development</p>
                         </div>
                     </div>
@@ -102,7 +140,7 @@ const Home =() => {
                 <div className="d-container">
                     <div className="d-front">
                         <div className="d-inner">
-                            <span><img className="d-img" src={Ml} /></span>
+                            <span><img className="d-img" src={Ml} alt="dimg"/></span>
                             <p>Machine Learning</p>
                         </div>
                     </div>
@@ -117,7 +155,7 @@ const Home =() => {
                 <div className="d-container">
                     <div className="d-front">
                         <div className="d-inner">
-                            <span><img className="d-img" src={Ux} /></span>
+                            <span><img className="d-img" src={Ux} alt="dimg"/></span>
                             <p>UI/UX Designing</p>
                         </div>
                     </div>
@@ -161,22 +199,4 @@ function reveal(){
         }
     }
 }
-const text = document.querySelector(".sec-text");
-
-const textLoad = () => {
-if(text){
-    setTimeout(() => {
-        text.textContent = "Think.";
-    }, 0);
-    setTimeout(() => {
-        text.textContent = "Develop.";
-    }, 4000);
-    setTimeout(() => {
-        text.textContent = "Deploy.";
-    }, 8000); 
-}
-}
-const ram = (Math.random()+1)*1000;
-textLoad();
-setInterval(textLoad, ram);
 export default Home;
