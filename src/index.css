@@ -115,14 +115,13 @@ HEADER
 #hero1 {
   width: 100%;
   margin-top: 8vh;
-  margin-right: 90rem;
 }
 #hero1 h1 {
-  margin-bottom: 8%;
+  margin-bottom: 10%;
 }
-#hero h2{
+/* #hero h2{
   font-size: 400px;
-}
+} */
 /* .blocks {
   margin-right: auto;
   color: black;
@@ -130,13 +129,21 @@ HEADER
 
 .blast-text3 {
   font-weight: bold;
-  display: flex;
+  /* display: flex; */
   opacity: 1;
-  font-size: 20rem;
+  margin-right: 18px !important;
+  font-family: "Rampart One", cursive;
+  margin-top: -4vh;
+}
+.blast-text4 {
+  font-weight: bold;
+  opacity: 1;
+
   margin-right: 20px !important;
   font-family: "Rampart One", cursive;
   margin-top: -4vh;
 }
+
 
 .text3 {
   animation-duration: 1s;
@@ -147,10 +154,24 @@ HEADER
 }
 
 .text3:hover {
+  display: inline-flex;
   color: #C539B4;
   animation-name: rubberBand;
 }
-.tx {
+.text9 {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+  color: #1cece2;
+  font-family: "Rampart One", cursive;
+  font-size: 4rem;
+}
+.text9:hover {
+  display: inline-flex;
+  color: gold;
+  animation-name: rubberBand;
+}
+/* .tx {
   width: 25%;
   background: #7DE5ED;
   border-radius: 8px;
@@ -163,7 +184,7 @@ HEADER
   cursor: pointer;
   margin-left: 37%;
   transition: 1s ease;
-}
+} */
 @keyframes rubberBand {
   from {
     transform: scale3d(1, 1, 1);
@@ -236,8 +257,8 @@ HEADER
 }
 .bol {
   position: absolute;
-  top: 19rem;
-  opacity: 0.5;
+  top: 15rem;
+  opacity: 0.3;
   z-index: -1;
   background-attachment: scroll;
 }
@@ -302,12 +323,13 @@ HEADER
 home page part 3
 ========================= */
 .whatwedo {
-  background-image: url("C:\Users\gupta\OneDrive\Desktop\ccc website\css\src\image\4.png");
-  opacity: 1;
+   background-image: url("D:\Downaload\4m_purplewave_footer.png"); 
+
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: 8.2rem;
+  background-size: 100%;
+  background-position-y: 100%;
   background-attachment: scroll;
+
 }
 .d-wrapper {
   /* background: linear-gradient(90deg, rgb(19, 108, 132), rgb(5, 0, 65), rgb(43, 108, 148), rgb(0, 10, 55) ); */
@@ -501,12 +523,16 @@ home page part 3
 /*====================================
  Our Team
 ===================================*/
+.ourteam{
+  margin-top: 7rem;
+
+}
 .section1-title h2 {
   text-transform: uppercase;
   text-align: center;
 }
 .section1-title {
-  margin: 2rem 0;
+  margin: 0;
 }
 .section1-title p {
   text-transform: uppercase;

@@ -31,17 +31,11 @@ const Team = () => {
               <div className="col-10 mx-auto">
                 <div className="row">
                   <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                    <div className="contain">
-                      <h1>
-                        {" "}
-                        <span className="text first-text">
-                          Meet The Team &
-                        </span>{" "}
-                      </h1>
-                      <h2 className="my-3">
-                        <span className="text sec-text">Alumni.</span>
-                      </h2>
-                    </div>
+                  <h2 className="blast-text4">
+                <span className="text3">The Cloud Computing Cell is more than just a scientific community,</span>
+                <br />
+                <span className="text9">It is a Family.</span>
+</h2>
                   </div>
                   <div className="col-lg-6 order-lg-2 header-img">
                     <img
@@ -55,13 +49,13 @@ const Team = () => {
             </div>
           </div>
         </section>
-        <section>
-          <div className="col-md-12 reveal">
+        <section className="ourteam reveal">
+          <div className="col-md-12">
             <div className="section1-title text-container">
               <h1 className="d-card-title">Our Team</h1>
             </div>
           </div>
-          <div className="mt-3 team-bt reveal">
+          <div className="mt-3 team-bt">
             <button className="btn-get-started" onClick={() => setTabIndex(1)}>
               4<sup>nd</sup> Year
             </button>

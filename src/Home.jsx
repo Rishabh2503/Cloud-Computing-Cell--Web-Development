@@ -36,7 +36,8 @@ const Home =() => {
               <h1 className="blast-text3">
                 <span className="text3">Accelerating</span>
                 &nbsp;
-                <span className="text3">Cloud</span>
+                <span className="text3">Cloud </span>
+                <span className="text3">Transformation</span>
               </h1>
             </div>
             <div className="blocks block1">
@@ -112,7 +113,7 @@ const Home =() => {
                     </div>
                     <div className="d-back">
                         <div className="d-inner">
-                            <p>Bridge the gap by working on both front end as well as backend and provide distinctive solutions to satisfy this need</p>
+                            <p>As web developers, we ensure that the website is visually appealing and easy to navigate with absolute care for website’s performance and capacity.</p>
                         </div>
                     </div>
                 </div>

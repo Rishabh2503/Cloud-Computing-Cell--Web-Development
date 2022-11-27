@@ -10,7 +10,7 @@ function Register() {
     <div
     class="wrapper6"
   >
-    <div class="inner6">
+    <div class="inner6 reveal">
         <div class="image-holder6">
           <img src={Bg} alt="image" class='bg17' />
         </div>

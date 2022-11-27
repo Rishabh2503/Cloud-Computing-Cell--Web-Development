@@ -61,17 +61,16 @@ const Contac = () => {
             <div className="col-10 mx-auto">
               <div className="row">
                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                  <div className="contain">
-                    <h1>
-                      {" "}
-                      <span className="text first-text">
-                      If You Ever Wish For a Cloud
-                      </span>{" "}
-                    </h1>
-                    <h2 className="my-3">
-                      <span className="text sec-text">Here We Are.</span>
-                    </h2>
-                  </div>
+                <h1 className="blast-text3">
+                <span className="text3">Let's</span>
+                &nbsp;
+                <span className="text3">Keep</span>
+                &nbsp;
+                <span className="text3">In</span>
+                &nbsp;
+                <span className="text3">Touch</span>
+              </h1>
+                  
                 </div>
                 <div className="col-lg-6 order-lg-2 header-img">
                   <img
