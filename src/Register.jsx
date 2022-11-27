@@ -8,21 +8,21 @@ function Register() {
     <>
       <Navbar />
     <div
-    class="wrapper6"
+    className="wrapper6"
   >
-    <div class="inner6 reveal">
-        <div class="image-holder6">
-          <img src={Bg} alt="image" class='bg17' />
+    <div className="inner6 reveal">
+        <div className="image-holder6">
+          <img src={Bg} alt="image" className='bg17' />
         </div>
         <form onsubmit="sendEmail(); reset(); return false" id="form6">
         <h3>Registration Form</h3>
-          <div class="form-group6">
+          <div className="form-group6">
             <input
               type="text"
               id="fname"
               name="firstname"
               placeholder="First Name"
-              class="form-control6"
+              className="form-control6"
             />
             <br />
             <input
@@ -30,17 +30,17 @@ function Register() {
               id="lname"
               name="lastname"
               placeholder="Last Name"
-              class="form-control6"
+              className="form-control6"
             />
             <br />
           </div>
-          <div class="form-group6">
+          <div className="form-group6">
             <input
               type="text"
               id="lname."
               name="Rollno"
               placeholder="Roll No."
-              class="form-control6"
+              className="form-control6"
             />
             <br />
             <input
@@ -48,17 +48,17 @@ function Register() {
               id="lname"
               name="StudentID"
               placeholder="StudentID"
-              class="form-control6"
+              className="form-control6"
             />
             <br />
           </div>
-          <div class="form-group6">
+          <div className="form-group6">
             <input
               type="text"
               id="lname."
               name="Branch"
               placeholder="Branch"
-              class="form-control6"
+              className="form-control6"
             />
             <br />
             <input
@@ -66,17 +66,17 @@ function Register() {
               id="lname"
               name="Year"
               placeholder="Year"
-              class="form-control6"
+              className="form-control6"
             />
             <br />
           </div>
-          <div class="form-wrapper6">
+          <div className="form-wrapper6">
             <input
               type="text"
               id="email"
               name="email"
               placeholder="Email Address"
-              class="form-control6"
+              className="form-control6"
             />
             <br />
             <input
@@ -84,10 +84,10 @@ function Register() {
             id="lname"
             name="number"
             placeholder="Phone Number"
-            class="form-control6"
+            className="form-control6"
           />
           </div>
-          <button class="btn17" type="submit">
+          <button className="btn17" type="submit">
             Registration
         </button>
         <br />
