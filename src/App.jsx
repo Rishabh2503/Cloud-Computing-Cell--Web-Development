@@ -5,7 +5,7 @@ import Home from "./Home";
 import Activities from "./Activities";
 import Team from "./Team";
 import Contac from "./Contac";
-
+import Register from "./Register"
 import {Switch,Route,Redirect} from "react-router-dom";
 
 
@@ -20,6 +20,7 @@ const App =() => {
             <Route exact path = "/activities" component ={Activities} />
             <Route exact path = "/team" component ={Team} />
             <Route exact path = "/Call" component ={Contac} />
+            <Route exact path = "/Register" component ={Register} />
             <Redirect to="/" />
         </Switch>
         </>

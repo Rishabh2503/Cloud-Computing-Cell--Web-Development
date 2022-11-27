@@ -35,12 +35,8 @@ const Home =() => {
             <div className="blocks block0">
               <h1 className="blast-text3">
                 <span className="text3">Accelerating</span>
-            
                 &nbsp;
                 <span className="text3">Cloud</span>
-               
-
-                 
               </h1>
             </div>
             <div className="blocks block1">

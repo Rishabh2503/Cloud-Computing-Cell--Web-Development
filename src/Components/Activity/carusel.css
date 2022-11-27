@@ -1,5 +1,6 @@
 
 .carusel{
+    margin-top: 5rem;
     width:100%;
     height:auto;
     /* background-color: aqua; */
@@ -22,7 +23,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 2.0rem;
     height: 420px;
 }
 .slider2 .ssContent{

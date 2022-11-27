@@ -50,8 +50,14 @@ var dots=document.getElementsByClassName("btn9");
 // }
 // }
   return (
-
+    <>
+    <div className="reveal"> 
+    <div className="gallery"> 
+    <p> Gallery</p>
+    {/* <h3>What we do!</h3> */}
+  </div>
     <div className="slider-container9">
+   
       <div className="container9">
             <div className="box9">
                 <img src={image10} alt=""/>
@@ -74,7 +80,8 @@ var dots=document.getElementsByClassName("btn9");
         />
       </div>
     </div>
-
+    </div>
+    </>
   );
 }
 

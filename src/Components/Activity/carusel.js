@@ -128,10 +128,11 @@ const Carusel = () => {
   console.log(Slidedata);
   return (
     <div>
-      <section className="carusel">
-        <h3>OUR WORKS</h3>
-        <p> What we do!</p>
-
+      <section className="carusel reveal">
+       <div className="d-card-title"> 
+        <p> OUR WORKS</p>
+        {/* <h3>What we do!</h3> */}
+ </div>
         <div className="slider">
           <button className="btn1" onClick={prev}>
             {/* <div className="bt1">
