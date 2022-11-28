@@ -4,10 +4,7 @@ import  Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
 // import Slider from "./Components/Slider/Slider";
 import Carusel from "./Components/Activity/carusel";
-// import New from "./Components/Activity/New";
-// import New3 from "./Components/Activity/New3";
-// import New6 from "./Components/Activity/New6";
-// import {BrowserRouter,Switch,Route} from "react-router-dom";
+
 
 
 const Activities =() => {
@@ -20,7 +17,7 @@ const Activities =() => {
             <div className="row">
                 <div className="col-10 mx-auto">
                     <div className="row">
-                <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
+                <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column" id="hello5">
                     {/* <div className="contain">
                     <h1> <span className="text first-text">Events and Workshop we organize</span> </h1>
                     <h2 className="my-3"><span className="text sec-text">Depeloy.</span></h2>

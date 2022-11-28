@@ -105,14 +105,16 @@ export default function Footer() {
         <div className="linksContainer">
           <iframe
                 src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d437.5590053994981!2d77.50311552543072!3d28.67552288784848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDQwJzMyLjQiTiA3N8KwMzAnMTEuNyJF!5e0!3m2!1sen!2sin!4v1667474400173!5m2!1sen!2sin"
-                width="300"
-                height="300"
+                // width="300"
+                // height="300"
                 title="maps"
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
+              
         </div>
+        {/* <p className="linksContainerp">© Cloud Computing Cell AKGEC</p> */}
         <div className="contactSection">
           <span>We're here</span>
           <span>Let's talk</span>

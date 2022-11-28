@@ -2,6 +2,11 @@ import React, { useState } from "react";
 import web from "../src/image/7.png";
 import Navbar from "./Components/Navbar/Navbar";
 import Footer from "./Components/Footer/Footer";
+import {db} from './firebase'
+import {setDoc,collection} from './firebase/firestore'
+
+
+
 import "../src/call.css";
 const Contac = () => {
   const [user, setUser] = useState({
@@ -17,6 +22,20 @@ const Contac = () => {
     value = event.target.value;
     setUser({ ...user, [name]: value });
   };
+
+
+  const contact=async()=>{
+    await setDoc(collection(db,"people"),{
+        firstName:user.firstname,
+        lastname:user.lastname,
+        email:user.email,
+        phone: user.phone,
+        message : user.message
+    })
+    }
+    
+
+
   const postData = async (e) => {
     e.preventDefault();
     const {firstname,lastname,email,phone,message} = user;

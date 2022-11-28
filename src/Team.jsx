@@ -19,6 +19,19 @@ import Harshit from "./image/society/Harshit.jpeg";
 import Shailaja from "./image/society/Shailaja Pal.jpeg";
 import CardData from "../src/Components/Card/cardData";
 import Tanish from "./image/society/tanish.jpg";
+import jigyansh from "./image/society/Jigyansh-4.jpeg"
+import Unknow1 from "./image/society/IMG-20221127-WA0024.jpg"
+import Unknow2 from "./image/society/IMG-20221127-WA0023.jpg"
+import Unknow3 from "./image/society/IMG-20221127-WA0025.jpg"
+import varsha from "./image/society/varsha-4.jpeg"
+import Shatakshi from "./image/society/Shatakshi-4.jpg"
+import Saksham from "./image/society/Saksham-4.jpg"
+import PRASEN from "./image/society/PRASEN JEET-4.jpg"
+import Shashank from "./image/society/sashank.JPG"
+import Priya from "./image/society/priya.jpg"
+import Taru from "./image/society/taru.jpg"
+import Sarthak from "./image/society/sarthak.jpg"
+import Atul from "./image/society/atul.jpg"
 const Team = () => {
   const [tabIndex, setTabIndex] = useState(1);
   {
@@ -30,7 +43,7 @@ const Team = () => {
             <div className="row">
               <div className="col-10 mx-auto">
                 <div className="row">
-                  <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
+                  <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column" id="hello6">
                   <h2 className="blast-text4">
                 <span className="text3">The Cloud Computing Cell is more than just a scientific community,</span>
                 <br />
@@ -204,9 +217,289 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
+                {/* 2nd row */}
+                <br />
+                <br />
+                <div className="row" id="fourth-year">
+                  <div className="col-md-3">
+                    <div className="single1-team">
+                      <div className="team1-img">
+                        <img src={varsha} alt="" width={255} height={263} />
+                      </div>
+                      <div className="team1-content">
+                        <div className="team1-info">
+                          <h3>Manya Chaudhary</h3>
+                          <p>Machine Learning & UI/Ux</p>
+                        </div>
+                        <p className="team1-text">
+                          <i
+                            className="fa-brands fa-facebook fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <a href="https://www.instagram.com/m.a.n.y.aa_/?next=%2F">
+                            <i
+                              className="fa-brands fa-instagram fa-2x "
+                              id="iconanimate"
+                            ></i>
+                          </a>
+                          <i
+                            className="fa-brands fa-linkedin fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <i
+                            className="fa-brands fa-github fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  {/* 2nd member */}
+                  <div className="col-md-3">
+                    <div className="single1-team">
+                      <div className="team1-img">
+                        <img src={Shatakshi} alt="" width={255} height={263} />
+                      </div>
+                      <div className="team1-content">
+                        <div className="team1-info">
+                          <h3>Kartikay Singhal </h3>
+                          <p>Machine Learning</p>
+                        </div>
+                        <p className="team1-text">
+                          <i
+                            className="fa-brands fa-facebook fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <a href="https://www.instagram.com/kartikay_singhal/?next=%2F">
+                            <i
+                              className="fa-brands fa-instagram fa-2x "
+                              id="iconanimate"
+                            ></i>
+                          </a>
+                          <i
+                            className="fa-brands fa-linkedin fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <i
+                            className="fa-brands fa-github fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-3">
+                    <div className="single1-team">
+                      <div className="team1-img">
+                        <img src={Saksham} alt="" width={255} height={263} />
+                      </div>
+                      <div className="team1-content">
+                        <div className="team1-info">
+                          <h3>Aagiya Singh</h3>
+                          <p>Web Developer</p>
+                        </div>
+                        <p className="team1-text">
+                          <i
+                            className="fa-brands fa-facebook fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <a href="https://www.instagram.com/_.aagiyasingh/?next=%2F">
+                            <i
+                              className="fa-brands fa-instagram fa-2x "
+                              id="iconanimate"
+                            ></i>
+                          </a>
+                          <i
+                            className="fa-brands fa-linkedin fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <i
+                            className="fa-brands fa-github fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-3">
+                    <div className="single1-team">
+                      <div className="team1-img">
+                        <img src={PRASEN} alt="" width={255} height={263} />
+                      </div>
+                      <div className="team1-content">
+                        <div className="team1-info">
+                          <h3>Samiksha Jain</h3>
+                          <p>Web Developer</p>
+                        </div>
+                        <p className="team1-text">
+                          <i
+                            className="fa-brands fa-facebook fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <a href="https://www.instagram.com/samiksha7302/?next=%2F">
+                            <i
+                              className="fa-brands fa-instagram fa-2x "
+                              id="iconanimate"
+                            ></i>
+                          </a>
+                          <i
+                            className="fa-brands fa-linkedin fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <i
+                            className="fa-brands fa-github fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                {/* 3rd row */}
+                <br />
+                <br />
+                <div className="row" id="fourth-year">
+                  <div className="col-md-3">
+                    <div className="single1-team">
+                      <div className="team1-img">
+                        <img src={Unknow1} alt="" width={255} height={263} />
+                      </div>
+                      <div className="team1-content">
+                        <div className="team1-info">
+                          <h3>Manya Chaudhary</h3>
+                          <p>Machine Learning & UI/Ux</p>
+                        </div>
+                        <p className="team1-text">
+                          <i
+                            className="fa-brands fa-facebook fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <a href="https://www.instagram.com/m.a.n.y.aa_/?next=%2F">
+                            <i
+                              className="fa-brands fa-instagram fa-2x "
+                              id="iconanimate"
+                            ></i>
+                          </a>
+                          <i
+                            className="fa-brands fa-linkedin fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <i
+                            className="fa-brands fa-github fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  {/* 2nd member */}
+                  <div className="col-md-3">
+                    <div className="single1-team">
+                      <div className="team1-img">
+                        <img src={Unknow2} alt="" width={255} height={263} />
+                      </div>
+                      <div className="team1-content">
+                        <div className="team1-info">
+                          <h3>Kartikay Singhal </h3>
+                          <p>Machine Learning</p>
+                        </div>
+                        <p className="team1-text">
+                          <i
+                            className="fa-brands fa-facebook fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <a href="https://www.instagram.com/kartikay_singhal/?next=%2F">
+                            <i
+                              className="fa-brands fa-instagram fa-2x "
+                              id="iconanimate"
+                            ></i>
+                          </a>
+                          <i
+                            className="fa-brands fa-linkedin fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <i
+                            className="fa-brands fa-github fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-3">
+                    <div className="single1-team">
+                      <div className="team1-img">
+                        <img src={Unknow3} alt="" width={255} height={263} />
+                      </div>
+                      <div className="team1-content">
+                        <div className="team1-info">
+                          <h3>Aagiya Singh</h3>
+                          <p>Web Developer</p>
+                        </div>
+                        <p className="team1-text">
+                          <i
+                            className="fa-brands fa-facebook fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <a href="https://www.instagram.com/_.aagiyasingh/?next=%2F">
+                            <i
+                              className="fa-brands fa-instagram fa-2x "
+                              id="iconanimate"
+                            ></i>
+                          </a>
+                          <i
+                            className="fa-brands fa-linkedin fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <i
+                            className="fa-brands fa-github fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-3">
+                    <div className="single1-team">
+                      <div className="team1-img">
+                        <img src={jigyansh} alt="" width={255} height={263} />
+                      </div>
+                      <div className="team1-content">
+                        <div className="team1-info">
+                          <h3>Samiksha Jain</h3>
+                          <p>Web Developer</p>
+                        </div>
+                        <p className="team1-text">
+                          <i
+                            className="fa-brands fa-facebook fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <a href="https://www.instagram.com/samiksha7302/?next=%2F">
+                            <i
+                              className="fa-brands fa-instagram fa-2x "
+                              id="iconanimate"
+                            ></i>
+                          </a>
+                          <i
+                            className="fa-brands fa-linkedin fa-2x "
+                            id="iconanimate"
+                          ></i>
+                          <i
+                            className="fa-brands fa-github fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
               </div>
             </div>
           )}
+          {/*------------------------------------------------ 
+          #3rd year
+          -------------------------------------------------------- */}
           {tabIndex === 2 && (
             <div className="team1-area reveal">
               <div className="team-container" id="thirdyear">
@@ -214,7 +507,7 @@ const Team = () => {
                   <div className="col-md-2">
                     <div className="single1-team">
                       <div className="team1-img">
-                        <img src={Sachin} alt="" width={255} height={263} />
+                        <img src={Sachin} alt=""/>
                       </div>
                       <div className="team1-content">
                         <div className="team1-info">
@@ -629,9 +922,424 @@ const Team = () => {
           )}
 
           {tabIndex === 3 && (
-            <div>
-              <h3 className="d-card-title">Presenting This Web site to You</h3>
+            <div className="team1-area reveal">
+            <div className="team-container" id="thirdyear">
+              <div className="row">
+                <div className="col-md-2">
+                  <div className="single1-team">
+                    <div className="team1-img">
+                      <img src={Shashank} alt=""/>
+                    </div>
+                    <div className="team1-content">
+                      <div className="team1-info">
+                        <h3>Sachin Kumar</h3>
+                        <p>Web Developer</p>
+                      </div>
+                      <p className="team1-text">
+                        <i
+                          className="fa-brands fa-facebook fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <a href="https://www.instagram.com/_sachinkrr/?next=%2F">
+                          <i
+                            className="fa-brands fa-instagram fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </a>
+                        <i
+                          className="fa-brands fa-linkedin fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <i
+                          className="fa-brands fa-github fa-2x "
+                          id="iconanimate"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* 2nd member */}
+                <div className="col-md-2">
+                  <div className="single1-team">
+                    <div className="team1-img">
+                      <img src={Priya} alt="" width={255} height={263} />
+                    </div>
+                    <div className="team1-content">
+                      <div className="team1-info">
+                        <h3>Mrityunjay Pandey</h3>
+                        <p>Web Developer & CP</p>
+                      </div>
+                      <p className="team1-text">
+                        <i
+                          className="fa-brands fa-facebook fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <a href="https://www.instagram.com/_.m.n.p._/?next=%2F">
+                          <i
+                            className="fa-brands fa-instagram fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </a>
+                        <i
+                          className="fa-brands fa-linkedin fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <i
+                          className="fa-brands fa-github fa-2x "
+                          id="iconanimate"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* 3rd memeber */}
+                <div className="col-md-2">
+                  <div className="single1-team">
+                    <div className="team1-img">
+                      <img src={Taru} alt="" width={255} height={263} />
+                    </div>
+                    <div className="team1-content">
+                      <div className="team1-info">
+                        <h3>Kamakshi Vashista</h3>
+                        <p>Web Developer</p>
+                      </div>
+                      <p className="team1-text">
+                        <i
+                          className="fa-brands fa-facebook fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <a href="https://www.instagram.com/kamakshivashista/?next=%2F">
+                          <i
+                            className="fa-brands fa-instagram fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </a>
+                        <i
+                          className="fa-brands fa-linkedin fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <i
+                          className="fa-brands fa-github fa-2x "
+                          id="iconanimate"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* 4th memeber */}
+                <div className="col-md-2">
+                  <div className="single1-team">
+                    <div className="team1-img">
+                      <img src={Atul} alt="" width={255} height={263} />
+                    </div>
+                    <div className="team1-content">
+                      <div className="team1-info">
+                        <h3>Harshit Saxena</h3>
+                        <p>Web Developer</p>
+                      </div>
+                      <p className="team1-text">
+                        <i
+                          className="fa-brands fa-facebook fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <a href="https://www.instagram.com/harshit_saxena_1107/?next=%2F">
+                          <i
+                            className="fa-brands fa-instagram fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </a>
+                        <i
+                          className="fa-brands fa-linkedin fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <i
+                          className="fa-brands fa-github fa-2x "
+                          id="iconanimate"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <div className="row">
+                <div className="col-md-2">
+                  <div className="single1-team">
+                    <div className="team1-img">
+                      <img src={Sarthak} alt="" width={255} height={263} />
+                    </div>
+                    <div className="team1-content">
+                      <div className="team1-info">
+                        <h3>Shashwat Pandey</h3>
+                        <p>Web Developer & CP</p>
+                      </div>
+                      <p className="team1-text">
+                        <i
+                          className="fa-brands fa-facebook fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <a href="https://www.instagram.com/shashwat144/?next=%2F">
+                          <i
+                            className="fa-brands fa-instagram fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </a>
+                        <i
+                          className="fa-brands fa-linkedin fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <i
+                          className="fa-brands fa-github fa-2x "
+                          id="iconanimate"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* 2nd member */}
+                <div className="col-md-2">
+                  <div className="single1-team">
+                    <div className="team1-img">
+                      <img src={Tanish} alt="" width={255} height={263} />
+                    </div>
+                    <div className="team1-content">
+                      <div className="team1-info">
+                        <h3>Tanishq Agarwal</h3>
+                        <p>App Developer</p>
+                      </div>
+                      <p className="team1-text">
+                        <i
+                          className="fa-brands fa-facebook fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <a href="https://www.instagram.com/_ishq_tan_/?next=%2F">
+                          <i
+                            className="fa-brands fa-instagram fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </a>
+                        <i
+                          className="fa-brands fa-linkedin fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <i
+                          className="fa-brands fa-github fa-2x "
+                          id="iconanimate"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                {/* 3rd memeber */}
+                <div className="col-md-2">
+                  <div className="single1-team">
+                    <div className="team1-img">
+                      <img src={Anishkha} alt="" width={255} height={263} />
+                    </div>
+                    <div className="team1-content">
+                      <div className="team1-info">
+                        <h3>Anishkha Chaudhary</h3>
+                        <p>App Developer & Ui/Ux</p>
+                      </div>
+                      <p className="team1-text">
+                        <i
+                          className="fa-brands fa-facebook fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <a href="">
+                          <i
+                            className="fa-brands fa-instagram fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </a>
+                        <i
+                          className="fa-brands fa-linkedin fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <i
+                          className="fa-brands fa-github fa-2x "
+                          id="iconanimate"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* 4th memeber */}
+                <div className="col-md-2">
+                  <div className="single1-team">
+                    <div className="team1-img">
+                      <img src={Anjani} alt="" width={255} height={263} />
+                    </div>
+                    <div className="team1-content">
+                      <div className="team1-info">
+                        <h3>Anjani Singhal</h3>
+                        <p>App Developer & Ui/Ux</p>
+                      </div>
+                      <p className="team1-text">
+                        <i
+                          className="fa-brands fa-facebook fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <a href="https://www.instagram.com/singhal_anjani/?next=%2F">
+                          <i
+                            className="fa-brands fa-instagram fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </a>
+                        <i
+                          className="fa-brands fa-linkedin fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <i
+                          className="fa-brands fa-github fa-2x "
+                          id="iconanimate"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <br />
+              <div className="row">
+                <div className="col-md-2">
+                  <div className="single1-team">
+                    <div className="team1-img">
+                      <img src={Nidhi} alt="" width={255} height={263} />
+                    </div>
+                    <div className="team1-content">
+                      <div className="team1-info">
+                        <h3>Nidhi Solanki</h3>
+                        <p>Machine Learning</p>
+                      </div>
+                      <p className="team1-text">
+                        <i
+                          className="fa-brands fa-facebook fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <a href="https://www.instagram.com/nidhi_26_s/?next=%2F">
+                          <i
+                            className="fa-brands fa-instagram fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </a>
+                        <i
+                          className="fa-brands fa-linkedin fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <i
+                          className="fa-brands fa-github fa-2x "
+                          id="iconanimate"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* 2nd member */}
+                <div className="col-md-2">
+                  <div className="single1-team">
+                    <div className="team1-img">
+                      <img src={Siddharth} alt="" width={255} height={263} />
+                    </div>
+                    <div className="team1-content">
+                      <div className="team1-info">
+                        <h3>Siddharth Srivastava</h3>
+                        <p>Machine Learning</p>
+                      </div>
+                      <p className="team1-text">
+                        <i
+                          className="fa-brands fa-facebook fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <a href="https://www.instagram.com/siddharth_0826/?next=%2F">
+                          <i
+                            className="fa-brands fa-instagram fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </a>
+                        <i
+                          className="fa-brands fa-linkedin fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <i
+                          className="fa-brands fa-github fa-2x "
+                          id="iconanimate"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* 3rd memeber */}
+                <div className="col-md-2">
+                  <div className="single1-team">
+                    <div className="team1-img">
+                      <img src={Nishtha} alt="" width={255} height={263} />
+                    </div>
+                    <div className="team1-content">
+                      <div className="team1-info">
+                        <h3>Nishtha Pandey</h3>
+                        <p>Machine Learning</p>
+                      </div>
+                      <p className="team1-text">
+                        <i
+                          className="fa-brands fa-facebook fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <a href="">
+                          <i
+                            className="fa-brands fa-instagram fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </a>
+                        <i
+                          className="fa-brands fa-linkedin fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <i
+                          className="fa-brands fa-github fa-2x "
+                          id="iconanimate"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* 3rd memeber */}
+                <div className="col-md-2">
+                  <div className="single1-team">
+                    <div className="team1-img">
+                      <img src={Shailaja} alt="" width={255} height={263} />
+                    </div>
+                    <div className="team1-content">
+                      <div className="team1-info">
+                        <h3>Shailaja Pal</h3>
+                        <p>Machine Learning</p>
+                      </div>
+                      <p className="team1-text">
+                        <i
+                          className="fa-brands fa-facebook fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <a href="https://www.instagram.com/shailaja_ayra/?next=%2F">
+                          <i
+                            className="fa-brands fa-instagram fa-2x "
+                            id="iconanimate"
+                          ></i>
+                        </a>
+                        <i
+                          className="fa-brands fa-linkedin fa-2x "
+                          id="iconanimate"
+                        ></i>
+                        <i
+                          className="fa-brands fa-github fa-2x "
+                          id="iconanimate"
+                        ></i>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
           )}
         </section>
         <section className="Aluminiarea2 reveal">

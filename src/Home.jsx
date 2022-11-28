@@ -56,7 +56,8 @@ const Home =() => {
                 <span className="text3">O</span>
                 <span className="text3">P</span>
                 <span className="text3">E</span>
-                &nbsp;
+                 &nbsp; 
+                <br />
                 <span className="text3">D</span>
                 <span className="text3">E</span>
                 <span className="text3">P</span>
@@ -171,7 +172,7 @@ const Home =() => {
         </section>
         <section>
     <Footer />
-        </section>
+            </section>
 
         </>
         )
