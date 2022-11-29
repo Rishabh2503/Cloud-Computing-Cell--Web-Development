@@ -18,9 +18,9 @@ const Contac = () => {
 
   const [usermessagea,setmessagea]=useState("")
 
-  var data={}
+  var data={firstname:userfirstnamea,lastname:userlastnamea,email:useremaila,phonenumber:userphonea,message:usermessagea}
 
-  function SendDtata(event){
+  function SendData(event){
     console.log(data)
     event.preventDefault()
     setfirstnamea("")
@@ -28,9 +28,12 @@ const Contac = () => {
     setemaila("")
     setphonea("")
     setmessagea("")
-   axios.post('https://regis-p',data).then((res)=>{
-    console.log(res)
-   })
+   axios.post('https://contact-production.up.railway.app/contactus',data).then((res)=>{
+    console.log(res);
+    console.log("hellloo")
+   }).catch(e => {
+    console.log(e);
+});
   }
 
 
@@ -151,7 +154,7 @@ const Contac = () => {
                 <div className="form-row submit-btn">
                   <div className="input-data">
                     <div className="inner"></div>
-                    <input type="submit" value="submit"/>
+                    <input type="submit" onClick={SendData} />
                   </div>
                 </div>
               </div>

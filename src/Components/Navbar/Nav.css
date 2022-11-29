@@ -29,7 +29,8 @@
   bottom:0;
   left:0;
   right:0;
-  background-color:rgba(0,0,0,0.3);
+  background-color:rgba(0, 0, 0, 0.729);
+  z-index: 1;
 }
 
 .nav-logob {
@@ -86,6 +87,7 @@
   color: #0077b6;
   border: 2px solid #0077b6;
   border-radius: 10%;
+  
 }
 
 .nav-iconb {
@@ -118,11 +120,13 @@
     left: 0px;
     opacity: 1;
     transition: all 0.5s ease;
-    z-index: 1;
+    z-index: 2;
   }
-  .nav-itemb .active5 {
-    color: #0077b6;
+   .active5 {
+    color: #0b3cff;
     border: none;
+    left: 0;
+    z-index: 3;
   }
   .nav-linksb {
     padding: 1.5rem;

@@ -37,9 +37,14 @@ function Register() {
     setTheUseremail("")
     setTheUserphone("")
     setFirst("")
-   axios.post('https://regis-production.up.railway.app/register',data).then((res)=>{
-    console.log(res)
-   })
+   axios.post('https://regis-production.up.railway.app/register',data).then((respose)=>{
+    console.log(respose)
+    if(respose.status===400){
+      console.log(respose.data.msg)
+    }
+   }).catch((e) => {
+    console.log(e);
+});
   }
 
   return (

@@ -855,6 +855,7 @@ Responsive Section
   .text9{
     font-size: 1.9rem;
   }
+  
    /* .team1-img img {
     height: 110%;
 }
@@ -865,6 +866,36 @@ Responsive Section
 #regfooter{
   position: absolute;
   top:0;
+}
+.slide-image {
+  width: 35%;
+  height: 50%;
+  margin-top: 80px;
+  position: absolute;
+  object-fit: cover;
+  right: 52.5rem;
+  border-radius: 10px;
+}
+.all-dots {
+  width: 20%;
+  height: 15%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 0%;
+  z-index: 200;
+  right: 0%;
+}
+.box9{
+  visibility: hidden;
+  display: none;
+}
+slide-image {
+  width: 35%;
+  height: 50%;
+  margin-top: 0px;
+  right: 52.5rem;
+  border-radius: 10px;
 }
 }
 /* @media screen and (max-width : 759rem) and (min-width: 422rem)   {
