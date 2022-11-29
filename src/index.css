@@ -837,7 +837,7 @@ Responsive Section
   }
   .team1-area{
     width: 50%;
-    right: 8rem;
+    right: 11.5rem;
   }
   .single1-team{
     margin-left: 2rem;
@@ -890,12 +890,20 @@ Responsive Section
   visibility: hidden;
   display: none;
 }
-slide-image {
+.slide-image {
   width: 35%;
   height: 50%;
   margin-top: 0px;
   right: 52.5rem;
   border-radius: 10px;
+}
+.btn-get-started{
+  width : 30%;
+  font-weight: 600;
+  font-size: 12px;
+}
+#fourthyear{
+  left:15rem;
 }
 }
 /* @media screen and (max-width : 759rem) and (min-width: 422rem)   {
