@@ -16,7 +16,7 @@ const App =() => {
 
     return (
         <>
-    
+        
         <Switch>
             <Route exact path = "/" component ={Home} />
             <Route exact path = "/activities" component ={Activities} />

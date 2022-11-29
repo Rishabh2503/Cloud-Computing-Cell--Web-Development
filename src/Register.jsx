@@ -52,7 +52,7 @@ function Register() {
         <div className="image-holder6">
           <img src={Bg} alt="image" className='bg17' />
         </div>
-        <form onsubmit="sendEmail(); reset(); return false" id="form6">
+        <form onSubmit="sendEmail(); reset(); return false" id="form6">
         <h3>Registration Form</h3>
           <div className="form-group6">
             <input
@@ -148,7 +148,8 @@ function Register() {
         </form>
           </div>
         </div>
-        <Footer />
+        <section id='regfooter'><Footer /></section>
+        
     </>
   )
 }

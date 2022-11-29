@@ -630,6 +630,10 @@ home page part 3
   text-decoration: none;
   color: #fff;
 }
+#Team2special{
+  position: relative;
+  left: 16rem;
+}
 /* =====================================
 Responsive Section
 ======================================= */
@@ -858,6 +862,10 @@ Responsive Section
   height: 80px;
   width: 100%;
 }  */
+#regfooter{
+  position: absolute;
+  top:0;
+}
 }
 /* @media screen and (max-width : 759rem) and (min-width: 422rem)   {
   
