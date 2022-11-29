@@ -24,13 +24,22 @@ function Register() {
 
   const [userphone,setTheUserphone]=useState("")
 
-  var data={fname:userfirstname,lname:useremail,lname:userlastname,lname:userRoll,lname:useremail,lname:userId,lname:userBranch,lname:userYear}
+  var data={firstname:userfirstname,email:useremail,lastname:userlastname,Rollno:userRoll,email:useremail,StudentID:userId,Branch:userBranch,Year:userYear}
 
   function SendDtata(event){
     console.log(data)
     event.preventDefault()
     setUser("")
-   axios.post('http://localhost:3001/register',data)
+    setTheUserRoll("")
+    setTheUserId("")
+    setTheUserBranch("")
+    setTheUserYear("")
+    setTheUseremail("")
+    setTheUserphone("")
+    setFirst("")
+   axios.post('https://regis-production.up.railway.app/register',data).then((res)=>{
+    console.log(res)
+   })
   }
 
   return (
@@ -63,7 +72,7 @@ function Register() {
               placeholder="Last Name"
               className="form-control6"
               value={userlastname}
-              onChange={setTheUserlastname}
+              onChange={(e)=>{setUser(e.target.value)}}
             />
             <br />
           </div>
