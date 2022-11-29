@@ -24,7 +24,7 @@ function Register() {
 
   const [userphone,setTheUserphone]=useState("")
 
-  var data={firstname:userfirstname,email:useremail,lastname:userlastname,Rollno:userRoll,email:useremail,StudentID:userId,Branch:userBranch,Year:userYear}
+  var data={firstname:userfirstname,email:useremail,number:userphone,Year:userYear,Rollno:userRoll,StudentID:userId,lastname:userlastname,Branch:userBranch}
 
   function SendDtata(event){
     console.log(data)
