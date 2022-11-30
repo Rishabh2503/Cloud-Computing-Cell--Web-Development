@@ -1,0 +1,91 @@
+.mentorc1 img{
+    width:10%;
+    
+}
+.mentorc1{
+    position: relative;
+    top:10rem;
+}
+.mentorc2{
+    position: relative;
+    left: 80rem;
+}
+.mentorc2 img{
+    width:10%;
+}
+.mentorc3 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #0077b6;
+}
+.mentor-img img{
+    width:25%;
+    position: relative;
+    bottom : 5rem;
+    max-width: 25%;
+}
+.mentor-img{
+    display: inline-flex;
+    justify-content: space-evenly;
+    padding: 5rem;
+}
+.mentor-img p{
+    margin-left: 4rem;
+}
+.mentor-imgp{
+    display: flex;
+    height: 20vh;
+    position: relative;
+    right: 82%;
+    top: 16rem;
+    
+}
+.mentor-imgp2{
+    text-align: justify;
+    display: inline-flex;
+    width: 10rem;
+    height: 20vh;
+    position: relative;
+    right: 87%;
+    top: 18rem;
+}
+@media only screen and (max-width: 480px) and (min-width: 0px){
+ .text3{
+    font-family: "Montserrat", sans-serif;
+ }
+ .mentorc2 {
+    position: relative;
+    left: 20rem;
+}
+.mentorc1 {
+    position: relative;
+    top: 2rem;
+}
+.mentor-img {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem;
+    width: 50rem;
+    height: 24rem;
+}
+.mentor-img p {
+    margin-left: 0;
+    position: relative;
+    top: 15rem;
+    right: 12.5rem;
+    font-size: 0.8rem;
+}
+.mentor-imgp {
+    display: flex;
+    height: 5vh;
+    position: relative;
+    right: 70%;
+    top: 10rem;
+}
+.mentor-img img {
+    left: 2rem;
+  
+}
+}

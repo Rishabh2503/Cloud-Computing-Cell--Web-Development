@@ -9,6 +9,7 @@ import App from "./image/app.jpeg";
 import Ml from "./image/ml.jpeg";
 import Ux from "./image/uxui.jpeg";
 import Team from "./image/3.jpg";
+import Mentor from "./Components/Our mentor/Mentor"
 
 const Home =() => {
     const[counter,setCounter]=useState(3)
@@ -99,6 +100,9 @@ const Home =() => {
             </div>
         </div>
         </div>
+        </section>
+        <section>
+            <Mentor />
         </section>
         {/*================================================================ What we do =======================================*/}
         <section className="whatwedo">

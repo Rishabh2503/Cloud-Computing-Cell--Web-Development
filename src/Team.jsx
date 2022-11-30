@@ -40,6 +40,7 @@ import Kartik from "./image/society/Kartik.jpeg"
 import Saurbh from "./image/society/Saurbh.jpg"
 import Arpit from "./image/society/Arpit.jpeg"
 import Shruti from "./image/society/Shruti.jpeg"
+import Raghav from './image/society/Raghav.jpg'
 const Team = () => {
   const [tabIndex, setTabIndex] = useState(1);
   {
@@ -869,7 +870,7 @@ const Team = () => {
                     <div className="team1-content">
                       <div className="team1-info">
                         <h3>Shashank Singh </h3>
-                        <p>App Development</p>
+                        <p>App Developer</p>
                       </div>
                       <p className="team1-text">
                         
@@ -1154,7 +1155,7 @@ const Team = () => {
                     <div className="team1-content">
                       <div className="team1-info">
                         <h3>Sarthak Srivastava </h3>
-                        <p>Web Development </p>
+                        <p>Web Developer </p>
                       </div>
                       <p className="team1-text">
                         
@@ -1245,16 +1246,16 @@ const Team = () => {
                 <div className="col-md-6">
                 <div className="single1-team">
                     <div className="team1-img">
-                      <img src={Kartik} alt="" width={255} height={263} />
+                      <img src={Raghav} alt="" width={255} height={263} />
                     </div>
                     <div className="team1-content">
                       <div className="team1-info">
-                        <h3>Sonam Kumari</h3>
-                        <p>Web Developer</p>
+                        <h3>Raghav Aggarwal</h3>
+                        <p>App Developer</p>
                       </div>
                       <p className="team1-text">
                         
-                        <a href="https://www.instagram.com/sonam2257kumari/?next=%2F">
+                        <a href="https://www.instagram.com/mr_x0209/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
                             id="iconanimate"
