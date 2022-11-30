@@ -1,5 +1,6 @@
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -146,12 +147,12 @@ HEADER
 }
 
 
-.text3 {
+.text3{
   animation-duration: 1s;
   animation-fill-mode: both;
   animation-iteration-count: 1;
   color: #0077b6;
-  font-family: "Rampart One", cursive;
+  font-family: 'Poppins', sans-serif; 
 }
 
 .text3:hover {
@@ -164,7 +165,7 @@ HEADER
   animation-fill-mode: both;
   animation-iteration-count: 1;
   color: #1cece2;
-  font-family: "Rampart One", cursive;
+  font-family: 'Poppins', sans-serif; 
   font-size: 4rem;
 }
 .text9:hover {
@@ -632,7 +633,7 @@ home page part 3
 }
 #Team2special{
   position: relative;
-  left: 16rem;
+  left : 18rem;
 }
 /* =====================================
 Responsive Section

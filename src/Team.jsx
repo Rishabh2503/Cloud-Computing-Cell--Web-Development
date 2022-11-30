@@ -36,6 +36,10 @@ import Dev from "./image/society/Devrath.jpg"
 import Sonam from "./image/society/sonam.jpg"
 import Preeti from "./image/society/preeti.jpg"
 import Rishabh from "./image/society/Rishabh4.jpeg"
+import Kartik from "./image/society/Kartik.jpeg"
+import Saurbh from "./image/society/Saurbh.jpg"
+import Arpit from "./image/society/Arpit.jpeg"
+import Shruti from "./image/society/Shruti.jpeg"
 const Team = () => {
   const [tabIndex, setTabIndex] = useState(1);
   {
@@ -98,10 +102,7 @@ const Team = () => {
                           <p>Machine Learning & UI/Ux</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/m.a.n.y.aa_/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -132,10 +133,7 @@ const Team = () => {
                           <p>Machine Learning</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/kartikay_singhal/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -165,10 +163,7 @@ const Team = () => {
                           <p>Web Developer</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/_.aagiyasingh/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -198,10 +193,7 @@ const Team = () => {
                           <p>Web Developer</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/samiksha7302/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -236,10 +228,7 @@ const Team = () => {
                           <p>Machine Learning & UI/Ux</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/m.a.n.y.aa_/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -270,10 +259,7 @@ const Team = () => {
                           <p>Machine Learning</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/kartikay_singhal/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -303,10 +289,7 @@ const Team = () => {
                           <p>Web Developer</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/_.aagiyasingh/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -336,10 +319,7 @@ const Team = () => {
                           <p>Web Developer</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/samiksha7302/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -374,10 +354,7 @@ const Team = () => {
                           <p>Machine Learning & UI/Ux</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/m.a.n.y.aa_/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -408,10 +385,7 @@ const Team = () => {
                           <p>Machine Learning</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/kartikay_singhal/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -441,10 +415,7 @@ const Team = () => {
                           <p>Web Developer</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/_.aagiyasingh/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -474,10 +445,7 @@ const Team = () => {
                           <p>Web Developer</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/samiksha7302/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -519,10 +487,7 @@ const Team = () => {
                           <p>Web Developer</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/_sachinkrr/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -553,10 +518,7 @@ const Team = () => {
                           <p>Web Developer & CP</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/_.m.n.p._/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -586,10 +548,7 @@ const Team = () => {
                           <p>Web Developer</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/kamakshivashista/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -620,10 +579,7 @@ const Team = () => {
                           <p>Web Developer</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/harshit_saxena_1107/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -658,10 +614,7 @@ const Team = () => {
                           <p>Web Developer & CP</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/shashwat144/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -693,10 +646,7 @@ const Team = () => {
                           <p>App Developer & Ui/Ux</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -726,10 +676,7 @@ const Team = () => {
                           <p>App Developer</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/_ishq_tan_/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -759,10 +706,7 @@ const Team = () => {
                           <p>App Developer & Ui/Ux</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/singhal_anjani/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -797,10 +741,7 @@ const Team = () => {
                           <p>Machine Learning</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -831,10 +772,7 @@ const Team = () => {
                           <p>Machine Learning</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/shailaja_ayra/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -864,10 +802,7 @@ const Team = () => {
                           <p>Machine Learning</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/nidhi_26_s/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -897,10 +832,7 @@ const Team = () => {
                           <p>Machine Learning</p>
                         </div>
                         <p className="team1-text">
-                          <i
-                            className="fa-brands fa-facebook fa-2x "
-                            id="iconanimate"
-                          ></i>
+                          
                           <a href="https://www.instagram.com/siddharth_0826/?next=%2F">
                             <i
                               className="fa-brands fa-instagram fa-2x "
@@ -927,10 +859,10 @@ const Team = () => {
 
           {tabIndex === 3 && (
             <div className="team1-area reveal">
-            <div className="team-container" id="thirdyear">
-              <div className="row">
-                <div className="col-md-2">
-                  <div className="single1-team">
+            <div className="team-container">
+              <div className="row" id="fourth-year">
+                <div className="col-md-3">
+                <div className="single1-team">
                     <div className="team1-img">
                       <img src={Shashank} alt=""/>
                     </div>
@@ -940,10 +872,7 @@ const Team = () => {
                         <p>App Development</p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
+                        
                         <a href="https://www.instagram.com/shashanksingh.7/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
@@ -963,8 +892,8 @@ const Team = () => {
                   </div>
                 </div>
                 {/* 2nd member */}
-                <div className="col-md-2">
-                  <div className="single1-team">
+                <div className="col-md-3">
+                <div className="single1-team">
                     <div className="team1-img">
                       <img src={Rishabh} alt="" width={255} height={263} />
                     </div>
@@ -974,10 +903,7 @@ const Team = () => {
                         <p>Web Developer</p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
+                        
                         <a href="https://www.instagram.com/i_am_rishabh25/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
@@ -996,9 +922,8 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
-                {/* 3rd memeber */}
-                <div className="col-md-2">
-                  <div className="single1-team">
+                <div className="col-md-3">
+                <div className="single1-team">
                     <div className="team1-img">
                       <img src={Dev} alt="" width={255} height={263} />
                     </div>
@@ -1008,31 +933,28 @@ const Team = () => {
                         <p>Machine Learning </p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
+                        
                         <a href="https://www.instagram.com/dev_vrat_tripathi/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
                             id="iconanimate"
                           ></i>
                         </a>
-                        <i
+                        <a href="https://www.linkedin.com/in/dev-brat-t-ba2647108/"><i
                           className="fa-brands fa-linkedin fa-2x "
                           id="iconanimate"
-                        ></i>
-                        <i
+                        ></i></a>
+                        <a href="https://github.com/Desi-Saitama"><i
                           className="fa-brands fa-github fa-2x "
                           id="iconanimate"
-                        ></i>
+                        ></i></a>
                       </p>
                     </div>
                   </div>
                 </div>
-                {/* 4th memeber */}
-                <div className="col-md-2">
-                  <div className="single1-team">
+                
+                <div className="col-md-3">
+                <div className="single1-team">
                     <div className="team1-img">
                       <img src={Atul} alt="" width={255} height={263} />
                     </div>
@@ -1042,10 +964,7 @@ const Team = () => {
                         <p>Web Developer</p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
+                        
                         <a href="https://www.instagram.com/atul_kumar_0933/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
@@ -1065,23 +984,22 @@ const Team = () => {
                   </div>
                 </div>
               </div>
+              {/* 2nd row */}
               <br />
-              <div className="row">
-                <div className="col-md-2">
-                  <div className="single1-team">
+              <br />
+              <div className="row" id="fourth-year">
+                <div className="col-md-3">
+                <div className="single1-team">
                     <div className="team1-img">
                       <img src={Priya} alt="" width={255} height={263} />
                     </div>
                     <div className="team1-content">
                       <div className="team1-info">
                         <h3>Priya Sharma</h3>
-                        <p>Ui/Ux Designer</p>
+                        <p>Web Developer & Ui/Ux Desgin</p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
+                        
                         <a href="https://www.instagram.com/priyasharanam/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
@@ -1100,22 +1018,20 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
-                {/* 2nd memeber */}
-                <div className="col-md-2">
-                  <div className="single1-team">
+                
+                {/* 2nd member */}
+                <div className="col-md-3">
+                <div className="single1-team">
                     <div className="team1-img">
                       <img src={Taru} alt="" width={255} height={263} />
                     </div>
                     <div className="team1-content">
                       <div className="team1-info">
                         <h3>Taru Pathak</h3>
-                        <p>Ui/Ux Designer</p>
+                        <p>Web Developer & Ui/Ux Desgin</p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
+                        
                         <a href="">
                           <i
                             className="fa-brands fa-instagram fa-2x "
@@ -1134,22 +1050,18 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
-                {/*3rd memeber */}
-                <div className="col-md-2">
-                  <div className="single1-team">
+                <div className="col-md-3">
+                <div className="single1-team">
                     <div className="team1-img">
                       <img src={Preeti} alt="" width={255} height={263} />
                     </div>
                     <div className="team1-content">
                       <div className="team1-info">
                         <h3>Anjani Singhal</h3>
-                        <p>App Developer & Ui/Ux</p>
+                        <p>Web Developer</p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
+                        
                         <a href="https://www.instagram.com/singhal_anjani/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
@@ -1168,9 +1080,8 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
-                {/* 4th memeber */}
-                <div className="col-md-2">
-                  <div className="single1-team">
+                <div className="col-md-3">
+                <div className="single1-team">
                     <div className="team1-img">
                       <img src={Sonam} alt="" width={255} height={263} />
                     </div>
@@ -1180,10 +1091,7 @@ const Team = () => {
                         <p>Web Developer</p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
+                        
                         <a href="https://www.instagram.com/sonam2257kumari/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
@@ -1203,24 +1111,23 @@ const Team = () => {
                   </div>
                 </div>
               </div>
+              {/* 3rd row */}
               <br />
-              <div className="row">
-                <div className="col-md-2">
-                  <div className="single1-team">
+              <br />
+              <div className="row" id="fourth-year">
+                <div className="col-md-3">
+                <div className="single1-team">
                     <div className="team1-img">
-                      <img src={Sarthak} alt="" width={255} height={263} />
+                      <img src={Kartik} alt="" width={255} height={263} />
                     </div>
                     <div className="team1-content">
                       <div className="team1-info">
-                        <h3>Sarthak Srivastava </h3>
-                        <p>Web Development </p>
+                        <h3>Kartik Tyagi</h3>
+                        <p>Web Developer</p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
-                        <a href="https://www.instagram.com/_sarthak_srivastav._/?next=%2F">
+                        
+                        <a href="https://www.instagram.com/kartik_tyagi_2912/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
                             id="iconanimate"
@@ -1239,22 +1146,19 @@ const Team = () => {
                   </div>
                 </div>
                 {/* 2nd member */}
-                <div className="col-md-2">
-                  <div className="single1-team">
+                <div className="col-md-3">
+                <div className="single1-team">
                     <div className="team1-img">
-                      <img src={Preeti} alt="" width={255} height={263} />
+                      <img src={Sarthak} alt="" width={255} height={263} />
                     </div>
                     <div className="team1-content">
                       <div className="team1-info">
-                        <h3>Siddharth Srivastava</h3>
-                        <p>Machine Learning</p>
+                        <h3>Sarthak Srivastava </h3>
+                        <p>Web Development </p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
-                        <a href="https://www.instagram.com/siddharth_0826/?next=%2F">
+                        
+                        <a href="https://www.instagram.com/_sarthak_srivastav._/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
                             id="iconanimate"
@@ -1272,23 +1176,19 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
-                {/* 3rd memeber */}
-                <div className="col-md-2">
-                  <div className="single1-team">
+                <div className="col-md-3">
+                <div className="single1-team">
                     <div className="team1-img">
-                      <img src={Nishtha} alt="" width={255} height={263} />
+                      <img src={Saurbh} alt="" width={255} height={263} />
                     </div>
                     <div className="team1-content">
                       <div className="team1-info">
-                        <h3>Nishtha Pandey</h3>
-                        <p>Machine Learning</p>
+                        <h3>Saurabh</h3>
+                        <p>Web Developer</p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
-                        <a href="">
+                        
+                        <a href="https://www.instagram.com/saurabhrajput8280/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
                             id="iconanimate"
@@ -1306,59 +1206,55 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
-                {/* 3rd memeber */}
-                <div className="col-md-2">
-                  <div className="single1-team">
+                <div className="col-md-3">
+                <div className="single1-team">
                     <div className="team1-img">
-                      <img src={Shailaja} alt="" width={255} height={263} />
+                      <img src={Arpit} alt="" width={255} height={263} />
                     </div>
                     <div className="team1-content">
                       <div className="team1-info">
-                        <h3>Shailaja Pal</h3>
+                        <h3>Arpit Malik</h3>
                         <p>Machine Learning</p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
-                        <a href="https://www.instagram.com/shailaja_ayra/?next=%2F">
+                        
+                        <a href="https://www.instagram.com/arp_112358/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
                             id="iconanimate"
                           ></i>
                         </a>
-                        <i
+                        <a href="https://www.linkedin.com/in/arpit-malik-aa836a243">
+                          <i
                           className="fa-brands fa-linkedin fa-2x "
                           id="iconanimate"
-                        ></i>
+                        ></i>  </a>
+                        <a href="https://github.com/Arpit2221">
                         <i
                           className="fa-brands fa-github fa-2x "
                           id="iconanimate"
-                        ></i>
+                        ></i>  </a>
                       </p>
                     </div>
                   </div>
                 </div>
               </div>
               <br /><br />
-              <div className="row" id="Team2special">
-                <div className="col-md-2">
-                  <div className="single1-team">
+              <div id="Team2special">
+              <div className="row" id="fourth-year">
+                <div className="col-md-6">
+                <div className="single1-team">
                     <div className="team1-img">
-                      <img src={Priya} alt="" width={255} height={263} />
+                      <img src={Kartik} alt="" width={255} height={263} />
                     </div>
                     <div className="team1-content">
                       <div className="team1-info">
-                        <h3>Priya Sharma</h3>
-                        <p>Ui/Ux Designer</p>
+                        <h3>Sonam Kumari</h3>
+                        <p>Web Developer</p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
-                        <a href="https://www.instagram.com/priyasharanam/?next=%2F">
+                        
+                        <a href="https://www.instagram.com/sonam2257kumari/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
                             id="iconanimate"
@@ -1376,23 +1272,20 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
-                {/* 2nd memeber */}
-                <div className="col-md-2">
-                  <div className="single1-team">
+                {/* 2nd member */}
+                <div className="col-md-6">
+                <div className="single1-team">
                     <div className="team1-img">
-                      <img src={Taru} alt="" width={255} height={263} />
+                      <img src={Shruti} alt="" width={255} height={263} />
                     </div>
                     <div className="team1-content">
                       <div className="team1-info">
-                        <h3>Taru Pathak</h3>
-                        <p>Ui/Ux Designer</p>
+                        <h3>Shrasti yadav</h3>
+                        <p>Web Developer & Ui/Ux Desgin</p>
                       </div>
                       <p className="team1-text">
-                        <i
-                          className="fa-brands fa-facebook fa-2x "
-                          id="iconanimate"
-                        ></i>
-                        <a href="">
+                        
+                        <a href="https://www.instagram.com/_sarthak_srivastav._/?next=%2F">
                           <i
                             className="fa-brands fa-instagram fa-2x "
                             id="iconanimate"
@@ -1410,8 +1303,11 @@ const Team = () => {
                     </div>
                   </div>
                 </div>
-               
+                
+                
               </div>
+            </div>
+              
             </div>
           </div>
           )}
