@@ -52,6 +52,64 @@
     right: 87%;
     top: 18rem;
 }
+@media only screen and (max-width: 990px) and (min-width: 482px){
+    .mentorc2 img {
+        width: 100%;
+    }
+ .text3{
+    font-family: "Montserrat", sans-serif;
+ }
+ .mentorc2 {
+    position: relative;
+    left: 73%;
+    width: 10%;
+    top: 1rem;
+}
+.mentorc1 {
+    position: relative;
+    top: 5rem;
+}
+/* .mentor-img {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5rem;
+    width: 100%;
+    height: 24rem;
+} */
+.mentorimpp2 {
+    display: hidden;
+    visibility: hidden;
+}
+/* .mentor-imgp {
+    display: flex;
+    height: 5vh;
+    position: relative;
+    right: 70%;
+    top: 10rem;
+} */
+.mentor-img img {
+    position: relative;
+    left: 24rem;
+    top : 2rem;
+    width: 15rem;
+    height: 15rem;
+ 
+}
+.mentor-img {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 23.5rem;
+    height: 1rem;
+    margin: 0;
+}
+.mentor-imgp {
+    display: flex;
+    height: 5vh;
+    position: relative;
+    left: 2rem;
+    top: 20rem;
+}
+}
 @media only screen and (max-width: 480px) and (min-width: 0px){
     .mentorc2 img {
         width: 100%;

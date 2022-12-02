@@ -83,7 +83,7 @@ const Home =() => {
         
         
         {/* ================================================== Who We are ================================*/}
-        <section>
+        <section id="whoarewe200">
         <div className="container2 reveal">
         <div className="container-fluid nav_bg" id="dol">
             <div className="bol"><img src={bal} alt="bol"/></div> 
